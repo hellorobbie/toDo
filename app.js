@@ -55,7 +55,7 @@ app.get("/", function(req, res) {
         });
         res.redirect("/");
     } else {
-        res.render("list", {listTitle: "Today", newListItems: foundItems});
+        res.render("list", {listTitle: "Robbie's To-do", newListItems: foundItems});
       };  
   });
 });
