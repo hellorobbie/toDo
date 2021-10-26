@@ -1,8 +1,8 @@
 html {
   background-color: #202020;
-  min-height: 610px;
+  min-height: 600px;
   font-family: 'Lato';
-  overflow: hidden;
+  overflow: auto;
 }
 
 h1 {
