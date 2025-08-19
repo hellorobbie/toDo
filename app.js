@@ -14,7 +14,7 @@ app.use(express.static("public"));
 
 
 
-mongoose.connect("mongodb+srv://robbie:robisdope@cluster0.r3ufb.mongodb.net/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://robbie:68vHUvm7FVqsu8UW@robbietodolistdb.nkbiqnq.mongodb.net/", {useNewUrlParser: true});
 
 const itemsSchema = {
   name: String
